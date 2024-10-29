@@ -1,0 +1,96 @@
+/* style.css */
+
+body {
+	background: #F2E5BF;
+	color: #CB6040;
+	font-family: 'lora';
+	font-size: 17px;
+}
+
+
+h1 {
+	color: #257180;
+	font-family: 'lora';
+	font-size: 32px;
+	font-weight: 900px;
+}
+
+h2 {
+	color: #FD8B51;
+	font-family: 'lora';
+	font-size: 24px;
+	font-weight: 600px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-family: 'lora';
+}
+
+a:hover {
+	color: black;
+}
+
+
+div {
+	background: white;
+    border: 1px lighter white;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 10px auto;
+}
+
+/* Custom design*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	background: #F2E5BF;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #CB6040;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: ;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
